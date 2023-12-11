@@ -47,3 +47,4 @@ sed "
   s#@SHOBJ_LIBS@#${SHOBJ_LIBS}#
   s#@SHOBJ_STATUS@#${SHOBJ_STATUS}#
 " "$src_dir"/Makefile.in > "$src_dir"/Makefile
+
